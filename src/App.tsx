@@ -6,20 +6,14 @@ import NavBar from "./components/NavBar";
 import ImageSlider from "./components/ImageSlider";
 
 // import clock from "./components/black-300.png";
-// import deer from "./components/Marcus-Aurelius-Quote.png";
-
-// import deer from "./components/b";
+import ContentNavbar from "./components/ContentNavbar";
 
 function App() {
   return (
     <>
       <NavBar />
-
-      {/* <div className="image-fader"> */}
-      {/* <img className="image-slide" src={clock} alt="clock" />
-      <img className="image-slide" src={deer} alt="deer" />
-      <img className="image-slide" src={pen} alt="pen" /> */}
       <ImageSlider />
+      <ContentNavbar />
 
       {/* </div> */}
     </>

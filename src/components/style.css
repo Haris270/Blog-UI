@@ -11,7 +11,7 @@ body {
     background-color: black;
 }
 
-nav {
+nav.top-nav {
     background-color: rgb(18, 22, 33);
     display: flex;
     justify-content: space-between;
